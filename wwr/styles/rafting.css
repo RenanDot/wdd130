@@ -84,7 +84,7 @@ nav, p, section, article {
 
 .hero article p {
     margin: 0;
-    color: var(--primary-color);
+    color: #062330;
     font-size: 1.2em;
 }
 
