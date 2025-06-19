@@ -157,7 +157,7 @@ p, article {
 }
 
 .hero {
-    position: relative;;
+    position: relative;
 }
 
 .hero img {
@@ -427,6 +427,222 @@ button:hover {
 
 iframe {
     border: 0;
+}
+
+.hero2 {
+    position: relative;
+}
+
+.hero2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero2 h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: var(--accent2-color);
+    color: white;
+}
+
+.hero2 article img {
+    width: 100px;
+    height: auto;
+    float: left;
+    border-radius: 4px;
+}
+
+.hero2 article p {
+    margin: 0;
+    color: #062330;
+    font-size: 1.2em;
+}
+
+.hero-heading {
+    letter-spacing: 0.2rem;
+}
+
+.newsletter-signup h1 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.name-signup {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.email-signup {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.newsletter-signup label {
+    display: flex; 
+    text-align: left;
+    align-items: center;
+    font-size: 1.4rem;
+    
+}
+
+.name-signup {
+    padding: 1rem 2rem;
+}
+
+.bt-submit {
+    margin: 2rem 2rem;
+}
+
+.images-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin: 3rem 0;
+}
+
+.img-grid img{
+    width: 250px;
+    height: 150px;
+}
+
+.img-grid {
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 0 15px;
+}
+
+.call-to-action {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.call-to-action h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.call-to-action p {
+    font-size: 1.6rem;
+}
+
+.call-to-action a {
+	display: block;
+	color: var(--primary-color);
+	text-decoration: none;
+	font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.call-to-action a:hover {
+	color: var(--secondary-color);
+	font-weight: 700;
+	text-decoration: wavy underline;
+}
+
+.trip-descriptions h1 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.trip-descriptions .trip {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    padding: 2rem 0;
+    align-items: center;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.trip-descriptions img {
+    border-radius: 10px;
+} 
+
+.trip h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.border1 {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.ctt-us {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.ctt-us h1 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.ctt-us p {
+    font-size: 1.6rem;
+}
+
+.ctt-us a{
+    display: block;
+	color: var(--primary-color);
+	text-decoration: none;
+	font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.ctt-us a:hover {
+	color: var(--secondary-color);
+	font-weight: 700;
+	text-decoration: wavy underline;
+}
+
+.trips-table {
+    text-align: center;
+    background-color: var(--accent2-color);
+    padding: 2rem 0;
+}
+
+.trips-table h1 {
+    color: var(--accent3-color);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+table {
+  margin: 0 auto; 
+  
+  width: 80%; 
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #ccc; 
+  padding: 10px;
+}
+
+th {
+  background-color: #f0f0f0; 
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #004466;
+}
+
+td {
+    color: var(--accent3-color);
 }
 
 
