@@ -647,4 +647,11 @@ td {
 
 /* seeing if it works */
 
+.link1 {
+    color: var(--accent3-color);
+}
+
+.link1 :hover{
+    color: var(--accent3-color)
+}
 
